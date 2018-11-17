@@ -6,6 +6,12 @@ import logo from './logo.svg';
 import './App.css';
 import {albums} from './album_spec.js';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+const PiwikReactRouter = require('piwik-react-router');
+
+const piwik = PiwikReactRouter({
+    url: "https://rachaelnewsome.com:8073",
+    siteId : 1
+});
 
 //<Button color="danger">Danger!</Button>
 
@@ -143,7 +149,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router history={piwik.connectToHistory(history)}>
         <div>
         <Nav pills>
             <NavItem> <NavLink tag={Link} to="/">Home</NavLink> </NavItem>
