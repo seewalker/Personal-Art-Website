@@ -5,6 +5,7 @@ import {Modal, ModalHeader,ModalBody,ModalFooter} from 'reactstrap';
 import logo from './logo.svg';
 import './App.css';
 import {albums} from './album_spec.js';
+import history from './history.js';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 const PiwikReactRouter = require('piwik-react-router');
 

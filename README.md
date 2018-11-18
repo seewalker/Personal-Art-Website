@@ -1,5 +1,5 @@
 # Personal Art Website
-This is the code and configuration involved in the website rachaelnewsome.com. It is a suitable website template for artists, if you wish to use it for yourself refer to the "Adapting This For Your Website" section.
+This is the code and configuration involved in the website [rachaelnewsome.com](https://rachaelnewsome.com). It is a suitable website template for artists, if you wish to use it for yourself refer to the "Adapting This For Your Website" section.
 
 This website is implemented with react and build with `create-react-app`. In order to show photo-albums well across devices (namely showing 1 column on phone screens and 3 columns on laptop screens), this project uses the bootstrap library and the reactstrap wrapper.
 
